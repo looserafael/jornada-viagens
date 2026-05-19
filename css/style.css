@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     /* Variáveis de cores */
     --background-primary-color: #ffffff;
