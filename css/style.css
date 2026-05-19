@@ -1,3 +1,16 @@
+:root {
+    /* Variáveis de cores */
+    --background-primary-color: #ffffff;
+    --background-secondary-color: #f5f5f5;
+    --background-tertiary-color: #000000;
+
+    --button-primary-color: #8F0101;
+    --button-secondary-color: #BB1515;
+
+    --text-primary-color: #222222;
+    --text-secondary-color: #FFFFFF;
+}
+
 body,
 img,
 h1,
@@ -12,4 +25,9 @@ button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    color: var(--button-primary-color);
+    /* Exemplo de uso da variável de cor para o título */
 }
